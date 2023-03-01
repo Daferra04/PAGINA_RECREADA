@@ -17,8 +17,10 @@ img{
 }
 h1{
     position: absolute;
-    top: 80px;
-    left: 5%;
+    top: 7
+    0px;
+    left: 10%;
+
 }
 h2{
     font-size: 3.2rem;
@@ -36,7 +38,6 @@ footer{
     
 }
 .seccion2{
-    
     margin-top: 0%;
     margin-right: auto;
     margin-bottom: 0%;
@@ -48,8 +49,8 @@ footer{
 }
 .lead{
     position: absolute;
-    top: 80px;
-    left: 5%;
+    top: 50px;
+    left: 10%;
 }
 @media (min-width:760px) {
     .container{
@@ -64,4 +65,13 @@ footer{
         flex: 0 0 calc(50% - 1rem);
     }
 
+}
+.boton{
+    position: absolute;
+    top: 100%;
+    background-color: #fff9c8;
+    
+}
+#oferta{
+    grid-template-columns: (1fr,1fr);
 }
