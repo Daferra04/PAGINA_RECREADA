@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+  }
+body{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    position: absolute;
+    top: 80px;
+    left: 5%;
+}
+h2{
+    font-size: 3.2rem;
+}
+p{
+    font-size: 2rem;
+}
+footer{
+    background-color: #535353;
+    color: antiquewhite;
+}
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+    
+}
+.seccion2{
+    
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 0%;
+    margin-left: auto;
+}
+.fot{
+    max-width: 130rem;
+    margin: 0 auto;
+}
+.lead{
+    position: absolute;
+    top: 80px;
+    left: 5%;
+}
+@media (min-width:760px) {
+    .container{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .aside{
+        flex: 0 0 calc(50% - 1rem);
+    }
+    .main{
+        flex: 0 0 calc(50% - 1rem);
+    }
+
+}
